@@ -63,6 +63,7 @@ body {
 .blog-msg {
   margin: 200px auto;
   text-align: center;
+  width: 594px;
 }
 #our-featured-flowers {
   color: #272727;
@@ -79,6 +80,27 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+
+#p-msg2 {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+}
+
+#insta-msg {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
 .flower-ads {
@@ -134,11 +156,48 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding-top: 60px;
+  gap: 10px;
 }
 .our-service-text {
   display: flex;
   text-align: justify;
   justify-content: space-evenly;
-  margin-right: 80px;
+  margin-right: 75px;
   margin-top: 40px;
+}
+
+.middle-section {
+  width: 1922px;
+  height: 620px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hot-deals-text {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 100px;
+}
+#off {
+  color: #e55473;
+}
+.paragraph-deal {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  width: 594px;
+  flex-shrink: 0;
+  padding-bottom: 30px;
+}
+.flower-slideshow {
+  padding-left: 10px;
 }
