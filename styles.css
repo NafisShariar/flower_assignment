@@ -51,3 +51,73 @@ body {
 .welcome-flower {
   margin-top: 50px;
 }
+
+/* main section */
+.first-ad {
+  width: 1920px;
+  height: 4867px;
+  background: #fff;
+  text-align: center;
+  display: block;
+}
+.blog-msg {
+  margin: 200px auto;
+  text-align: center;
+}
+#our-featured-flowers {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+#p-msg1 {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.flower-ads {
+  display: inline;
+}
+
+.first-flower {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  background-image: url("flower_asset/Rectangle_3.png");
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.second-flower {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  background-image: url("flower_asset/green_rectangle.png");
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.third-flower {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
