@@ -6,7 +6,7 @@ body {
   font-family: Lato;
 }
 .intro {
-  max-width: 1920px;
+  width: 1920px;
   height: 850px;
   display: flex;
   background: rgba(229, 84, 115, 0.1);
