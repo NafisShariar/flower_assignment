@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Lato;
+}
+.intro {
+  max-width: 1920px;
+  height: 850px;
+  display: flex;
+  background: rgba(229, 84, 115, 0.1);
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0px;
+}
+.welcome-text {
+  display: block;
+  padding-left: 90px;
+}
+
+.welcome-msg {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 708px;
+}
+.welcome-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
