@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700;800&display=swap"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="flower_asset/icons8_flower.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header class="intro">
@@ -86,7 +91,7 @@
             the readable content of a page when looking at its layout.
           </p>
         </div>
-        <!--  -->
+        <!-- flower image slideshow -->
         <div class="flower-slideshow">
           <img src="flower_asset/Flower_01.png" alt="" />
           <img src="flower_asset/Rectangle_4.png" alt="" />
@@ -95,24 +100,43 @@
         </div>
 
         <!--  -->
-        <div class="container">
-          <img src="flower_asset/Rectangle_9.png" alt="" />
-          <div class="centered">Get The Latest Deals</div>
-          <div class="center-text">$30 coupon for first shopping</div>
-          <form action="" class="takenotes">
-            <input type="text" name="" id="" />
-            <button class="btn-primary">Shop Now</button>
-          </form>
-        </div>
+        <div class="banner-container">
+          <h3 class="banner-h3">Get The Latest Deals</h3>
+          <p class="input-msg">$30 coupon for first shopping</p>
 
-        <!-- <div class="container">
-          <img class="image" src="flower_asset/Rectangle_9.png" alt="Image" />
-          <div class="form">
-            <input type="text" placeholder="Enter your text" />
-            <button type="submit">Submit</button>
+          <div class="form-div">
+            <div class="email-form">
+              <form action="">
+                <input
+                  type="text"
+                  name=""
+                  required
+                  class="enter-email"
+                  placeholder="      Enter your email here...."
+                />
+              </form>
+            </div>
+            <input
+              required
+              class="btn-primary"
+              type="submit"
+              value="Subscribe"
+            />
           </div>
-        </div> -->
+        </div>
       </section>
     </main>
+
+    <footer class="footer-container">
+      <h2 class="footer-msg"><span id="footer-flower">Flower</span>Shop</h2>
+      <p class="footer-paragraph">
+        It is a long established fact that a reader will be distracted by the
+        readable
+        <br />content of a page when looking at its layout.
+      </p>
+      <p class="copyright">
+        &copy;2020-2023, FlowerShop.com. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
